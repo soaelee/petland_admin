@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petland - Admin</title>
+    <link rel="stylesheet" href="base.css">
+    <script src="https://kit.fontawesome.com/72c88d65e7.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <a href="/" class="header__logo">
+            <p class="logo">Petland</p>
+        </a>
+        <div class="user_info">
+            <span class="user_name">Real Song</span>
+            <a class="logout">
+                <span>Logout</span>
+                <i class="fas fa-sign-out-alt"></i>
+            </a>
+        </div>
+    </header>
+    <div id="contents">
+        <section id="navbar">
+            <ul class="nav__menu">
+                <li class="nav__item">
+                    <a href="" class="nav__link">
+                        <i class="far fa-calendar-alt"></i>
+                        예약관리
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="" class="nav__link">
+                        <i class="fas fa-user-alt"></i>고객관리
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="" class="nav__link">
+                        <i class="fas fa-dog"></i>펫시터관리
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section id="content">
+            <div class="container">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>예약번호</th>
+                            <th>고객이름</th>
+                            <th>예약날짜/시간</th>
+                            <th>반려동물</th>
+                            <th>서비스</th>
+                            <th>펫시터ID</th>
+                            <th>삭제</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>이소애</td>
+                            <td>2020.10.29 / 11,12</td>
+                            <td>Cat</td>
+                            <td>Home</td>
+                            <td>7</td>
+                            <td><a href="#">삭제</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>이종현</td>
+                            <td>2020.10.27 / 1,2</td>
+                            <td>Dog</td>
+                            <td>Walking, training</td>
+                            <td>2</td>
+                            <td><a href="#">삭제</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>변해성</td>
+                            <td>2020.11.01 / 5</td>
+                            <td>Dog</td>
+                            <td>Home, training</td>
+                            <td>7</td>
+                            <td><a href="#">삭제</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <form action="#" method="GET" class="input">
+                    <div class="input-container">
+                        <input type="text" id="input_name" class="input_name" placeholder="고객 이름">
+                        <button type="button" class="search">검색</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
